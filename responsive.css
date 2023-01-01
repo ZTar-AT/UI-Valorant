@@ -1,0 +1,380 @@
+/* ถ้าขนาด ต่ำกว่า 800px  600px */
+@media only screen and (min-width: 1280px) {
+
+    :root {
+        /* ฟอนต์ */
+
+
+        --font_size: 18px;
+        --font_sizebottom: 12px;
+
+
+    }
+
+    .grid-columns3 {
+        height: 50px;
+    }
+
+    .BarPlay {
+
+        height: 35px;
+        padding: 15px 0px 0px 0px;
+        width: 200px;
+
+    }
+
+    .item {
+        padding: 15px 20px 0px 20px;
+
+    }
+
+    .item_bottom {
+
+        height: 30px;
+        width: 130px;
+
+    }
+
+    .grid-row>img {
+        width: 15px;
+        height: 15px;
+        padding: 5px 0 0 0;
+    }
+
+    .barText {
+
+        font-family: var(--font);
+        color: white;
+        text-align: center;
+        font-size: 12px;
+        padding: 5px 0 0 0;
+        left: 0px;
+    }
+
+    .box {
+
+        font-size: 15px;
+        padding: 5px 0px 5px 00px;
+        height: 20px;
+
+
+    }
+
+    .listFriend {
+
+        margin: 50px 0 0 0;
+
+    }
+
+    .containerMain {
+
+
+        margin: 30px 0 0 0;
+
+    }
+
+
+    /* section_custom */
+    .section_custom {
+
+        width: 1000px;
+
+        justify-content: center;
+    }
+
+    .box-grid {
+
+        width: 326px;
+        display: grid;
+        justify-content: center;
+    }
+
+    .box {
+        width: 326px;
+        height: 22px;
+        font-family: var(--font);
+        font-size: 16px;
+        padding-top: 7px;
+    }
+
+    .box_select {
+        width: 326px;
+        height: 50px;
+    }
+
+    .datalist_player {
+
+        grid-template-columns: 50px 230px 30px;
+        width: 326px;
+        height: 50px;
+
+    }
+
+    .grid-row1 {
+        text-align: left;
+
+        height: 80%;
+        display: grid;
+    }
+
+    #colorimg_shadow {
+
+        width: 48px;
+        height: 46px;
+    }
+
+    .null_select {
+        height: 50px;
+
+
+    }
+
+    /* section_play */
+    .section_play {
+
+        width: 1040px;
+
+    }
+
+    .boxplay {
+
+        width: 200px;
+        height: 320px;
+
+    }
+
+    .boxplay_character {
+
+        width: 200px;
+        height: 320px;
+
+    }
+
+    /* section_collection */
+    .section_collection {
+
+        width: 1000px;
+
+        grid-template-columns: 640px 350px;
+
+    }
+
+    .footer_character {
+        width: 1000px;
+        height: 40px;
+        margin: -100px 0px 0px 0px;
+
+
+    }
+
+    .box_TagName1 {
+
+        font-size: 20px;
+
+    }
+
+    .box_TagName2 {
+
+        font-size: 60px;
+
+
+    }
+
+    .box_TagName3 {
+
+        height: 60px;
+
+    }
+
+    .box_TagName4 {
+
+        font-size: 15px;
+
+    }
+
+    .list_character {
+
+        width: 1000px;
+        height: 80px;
+
+    }
+
+
+    .character1 {
+        min-width: 80px;
+        min-height: 80px;
+
+    }
+
+    .Button_columns {
+        width: 1000px;
+
+    }
+
+    /* section_history */
+    .section_history {
+        width: 800px;
+
+    }
+
+    .boxlist_history {
+
+        height: 650px;
+
+    }
+
+    .win,
+    .lose {
+
+        grid-template-columns: 70px 60px 60px 110px 130px 160px 210px;
+    }
+
+    .barText3,
+    .barText5 {
+     
+    
+        font-size: 20px;
+    }
+
+    .barText3:nth-child(even),.barText5:nth-child(even),.tag_mvp > .barText5 {
+        
+        font-size: 15px;
+        font-weight: 500;
+      }
+    .tag_mvp > .barText5 {
+        font-size: 15px;
+    }
+
+    .win>.details::before {
+    
+        font-size: 20px;
+        content: 'WIN';
+    }
+    
+    .lose>.details::before {
+     
+    font-size: 20px;
+        content: 'LOSE';
+    }
+    .details {
+        padding-top: 6px;
+       
+    }
+    .tagname_score,
+.tag_score {
+    padding-top: 15px;
+   
+}
+.tag_mvp {
+
+    padding: 30px 0 0 10px;
+   
+}
+
+/* section_shop */
+.section_shop {
+   
+    width: 1000px;
+
+}
+.mainshop {
+   
+    height: 490px;
+  
+}
+.barText6 {
+
+    font-size: 25px;
+   
+}
+.barText6:nth-child(2) {
+    padding: 0 0 0 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.barText6:nth-child(3) {
+    padding: 0 0 0 20px;
+    font-size: 25px;
+}
+.buy_button{
+   
+    width: 150px;
+    height: 40px;
+
+    font-size: 30px;
+    
+}
+.buy_button::before{
+    margin: 8px 0 0 -25px;
+    width: 18px;
+    height: 18px;
+}
+.listshop{
+   
+  
+    grid-gap: 10px;
+    grid-template-columns: 242.5px 242.5px 242.5px 242.5px;
+   margin: -20px 0 0 0;
+}
+.listshop1{
+    width: 242.5px;
+    height: 135px;
+    grid-template-rows: 98px 15px 15px ;
+   
+}
+.price{
+    padding: 10px 15px 0 0;
+  
+    font-size: 18px;
+  
+}
+.price::before{
+    margin: 4px 0 0 -20px;
+    width: 14px;
+    height: 14px;
+}
+.product_details{
+
+    font-size: 14px;
+ 
+}
+/* section_collection  */
+.section_collection {
+    width: 1100px;
+
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto;
+    
+}
+.container_collection {
+
+    width: 1100px;
+  
+
+}
+.textgun {
+    margin: 100px 0 0 0;
+  
+    height: 18px;
+  
+    font-size: 12px;
+    padding: 3px 0px 0px 0px;
+}
+
+.tagName_collection {
+    padding: 5px 0px 0px 0px;
+   
+    font-size: 15px;
+  
+    height: 20px;
+}
+.collection1 {
+    overflow: hidden;
+    height: 120px;
+}
+
+}
+
+/* ถ้าขนาด มากกว่ากว่า 1920  */
+@media only screen and (min-width: 1920px) {}
